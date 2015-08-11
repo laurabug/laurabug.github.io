@@ -12,12 +12,12 @@ $github:         #f6c2a4;
 $stack-overflow: #c98b3b;
 $rss:            #eea33a;
 
-$darker:         #21211E;
-$dark:           #2D2D29;
-$medium:         #3B3B35;
-$light-medium:   #969696;
+$darker:         #0A5C59; /*full background color*/
+$dark:           #2C8985; /* large square color */
+$medium:         #49A29F;
+$light-medium:   #FFEFC1;
 $dark-blue:      #215A6D;
-$light-blue:     #3CA2A2;
+$yellow:     	 #FFDC72;  /*main text color*/
 $green:          #92C7A3;
 $light:          #DFECE6;
 $white:          #FFFFFF;
@@ -42,7 +42,7 @@ html {
 body {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
-	background-color: $dark;
+	background-color: $darker;
 	color: $white;
 	font-size: 16px;
 	height: 100%;
@@ -50,7 +50,7 @@ body {
 }
 
 a, a:active {
-	color: $light-blue;
+	color: $yellow;
 	text-decoration: none;
 }
 
@@ -131,7 +131,7 @@ ul {
 	padding-right: 30px;
 	margin-top: 20px;
 	box-shadow: 0px 0px 0px 0px, 0px 6px 12px rgba(0, 0, 0, 0.2);
-	border-bottom: 5px solid $light-blue;
+	border-bottom: 5px solid $yellow;
 }
 
 #my-menu {
@@ -145,7 +145,7 @@ ul {
 	}
 
 	a:hover {
-		color: $light-blue;
+		color: $yellow;
 	}
 
 	.pages {
@@ -228,12 +228,12 @@ ul {
 	}
 
 	.content-panel:nth-of-type(1) {
-		border-bottom: 10px solid $light-blue;
+		border-bottom: 10px solid $yellow;
 	}
 
 	.author-header {
 		font-family: 'Montserrat', sans-serif;
-		color: $light-blue;
+		color: $white;
 		margin-top: 0px;
 		padding-top: 15px;
 		font-size: 30px;
@@ -278,7 +278,7 @@ ul {
 
 		h2 {
 			margin-bottom: 30px;
-			color: $light-blue;
+			color: $yellow;
 			font-size: 26px;
 		}
 
@@ -317,7 +317,7 @@ ul {
 		}
 
 		a:hover {
-			color: $light-blue;
+			color: $yellow;
 		}
 	}
 
@@ -344,7 +344,7 @@ ul {
 		}
 
 		a:hover {
-			color: $light-blue;
+			color: $yellow;
 		}
 
 		ul {
@@ -436,7 +436,7 @@ ul {
 		}
 
 		a:hover {
-			color: $light-blue;
+			color: $yellow;
 		}
 
 		h4 {
@@ -651,7 +651,7 @@ ul {
 				}
 
 				a:hover {
-					color: $light-blue;
+					color: $yellow;
 				}
 
 			}
