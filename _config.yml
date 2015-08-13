@@ -3,9 +3,9 @@ title: "Laura Salinas"
 email: laurabug2010@gmail.com
 description: "A blog about a teacher turned frontend engineer"
 baseurl: ""
-url: "http://laurabug.github.io
+url: http://laurabug.github.io/
 title_description: "A blog about a teacher turned frontend engineer"
-disqus_account: Laurasalinas
+title_image: "http://www.gravatar.com/avatar/00000000000000000000000000000000?s=500&d=mm"
 github_repository: https://github.com/laurabug/laurabug.github.io
 addthis_id: ra-513c6fa83da6ec67
 post_limit: 15
@@ -16,8 +16,8 @@ linkedin_link: https://www.linkedin.com/in/laurasalinas1
 google_plus_link: http://google.com/+LauraSalinas1 
 
 # Footer
-footer_left: "Created by <a href=\"https:ttps://www.linkedin.com/in/laurasalinas1">Laura Salinas</a>"
-footer_right: "&lt;/&gt; on <a href=\"https://github.com/laurabug/laurabug.github.io">Github</a> &nbsp;<i class=\"fa fa-github-alt\"></i>"
+footer_left: "Created by <a href=\"https:ttps://www.linkedin.com/in/laurasalinas1\">Laura Salinas</a>"
+footer_right: "&lt;/&gt; on <a href=\"https://github.com/laurabug/laurabug.github.io\">Github</a> &nbsp;<i class=\"fa fa-github-alt\"></i>"
 
 # Build settings
 markdown: redcarpet
