@@ -16,6 +16,9 @@ $darker:         #0A5C59; /*full background color*/
 $dark:           #2C8985; /* large square color */
 $medium:         #49A29F;
 $light-medium:   #FFEFC1;
+$light-pink:	 #C53F6E;
+$pink:			 #E26591;
+$soft-pink:		 #ED8FB0;
 $dark-blue:      #215A6D;
 $yellow:     	 #FFDC72;  /*main text color*/
 $green:          #92C7A3;
@@ -55,7 +58,7 @@ a, a:active {
 }
 
 a:hover {
-	color: $dark-blue;
+	color: $light-pink;
 	text-decoration: none;
 }
 
@@ -291,7 +294,7 @@ ul {
 				font-size: 24px;
 
 				a:hover {
-					color: $light-medium;
+					color: $soft-pink;
 				}
 
 				small {
@@ -776,7 +779,7 @@ ul {
 	}
 
 	div {
-		color: $light-medium;
+		color: $yellow;
 		text-align: center;
 		margin-top: 20px;
 		margin-bottom: 20px;
