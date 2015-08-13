@@ -5,7 +5,6 @@ description: "A blog about a teacher turned frontend engineer"
 baseurl: ""
 url: "http://laurabug.github.io
 title_description: "A blog about a teacher turned frontend engineer"
-google_analytics: "UA-20365477-4"
 disqus_account: Laurasalinas
 github_repository: https://github.com/laurabug/laurabug.github.io
 addthis_id: ra-513c6fa83da6ec67
