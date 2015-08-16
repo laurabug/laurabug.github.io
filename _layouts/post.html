@@ -53,14 +53,8 @@ layout: default
       </div>
 
       <div class="content-panel content">
-        <span itemprop="articleBody">{{ content }}</span>
+        <div itemprop="articleBody">{{ content }}</div>
 
-        {% if site.addthis_id %}
-        <div class="share">
-          <!-- Go to www.addthis.com/dashboard to customize your tools -->
-          <div class="addthis_sharing_toolbox"></div>
-        </div>
-        {% endif %}
 
         <div class="tags"><small>
           <i class="fa fa-tags"></i>

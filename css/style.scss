@@ -21,6 +21,8 @@ $pink:			 #E26591;
 $soft-pink:		 #ED8FB0;
 $dark-blue:      #215A6D;
 $yellow:     	 #FFDC72;  /*main text color*/
+$light-yellow:	 #FFF6DA;
+$light-teal:     #71BAB7;
 $green:          #92C7A3;
 $light:          #DFECE6;
 $white:          #FFFFFF;
@@ -414,19 +416,36 @@ ul {
 		margin-bottom: 10px;
 	}
 
+	h1 {
+		text-align: center;
+		color: $yellow;
+	}
+
 	h2 {
 		font-size: 36px;
+		color: $yellow;
+		text-align: center;
 	}
 
 	h3 {
 		font-size: 28px;
+		color: $soft-pink;
+		text-align: center;
+
 	}
 
 	p {
 		margin-bottom: 10px;
+		display: block;
+		text-align: center;
 
-		@media (min-width: $screen-sm-min) {
-			margin-bottom: 40px;
+		&.logo {
+			padding: 20px 0 10px 0;
+			border-bottom: 2px solid $light-teal;
+		}
+
+		&.sm-logo {
+			width: 50%;
 		}
 	}
 
@@ -530,7 +549,7 @@ ul {
 			padding-top: 10px;
 			padding-bottom: 10px;
 
-			@media (min-width: $screen-sm-min) {
+			@media (min-width: $screen-md-min) {
 				font-size: 24px;
 				padding-left: 30px;
 				padding-right: 30px;
@@ -540,10 +559,17 @@ ul {
 
 			img {
 				max-width: 100%;
-				padding: 10px;
-    		display: block;
-    		margin-left: auto;
-    		margin-right: auto
+				padding: 5px;
+    			display: block;
+    			margin-left: auto;
+    			margin-right: auto;
+    			background-color: $white;
+
+    			&.sm-logo {
+    				display: inline-block;
+    				width: 10%;
+    				height: 90px;
+    			}
 			}
 
 			li {
