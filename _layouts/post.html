@@ -62,7 +62,8 @@ layout: default
         </small></div>
 
       </div>
-
+    
+    {% unless page.skip_related == 1 %}
       <div class="content-panel related clearfix">
         {% for post in site.related_posts limit:1 %}
         <div class="related-header">
@@ -98,6 +99,7 @@ layout: default
           {% endif %}
         </div>
       </div>
+    {% endunless %}
 
     </div>
 

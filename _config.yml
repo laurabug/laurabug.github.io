@@ -6,7 +6,7 @@ baseurl: ""
 #url: http://laurabug.github.io/
 url: http://localhost:4000
 title_description: "A blog about a teacher turned frontend engineer"
-title_image: "http://www.gravatar.com/avatar/00000000000000000000000000000000?s=500&d=mm"
+title_image: images/laura.jpg
 github_repository: https://github.com/laurabug/laurabug.github.io
 addthis_id: ra-55ce1c12be735db0
 post_limit: 15

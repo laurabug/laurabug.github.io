@@ -1,11 +1,12 @@
 ---
-layout:     post
-title:      Welcome
-date:       2015-03-23 15:31:19
-author:     Laura Salinas
-summary:    A short page about me.
-categories: jekyll
-thumbnail:  road
+layout:       post
+title:        Welcome
+date:         2015-08-04 15:31:19
+author:       Laura Salinas
+summary:      A short page about me.
+categories:   jekyll
+skip_related: 1
+thumbnail:    road
 tags:
  - welcome
 ---
@@ -43,16 +44,16 @@ There is a lot more to my story and you can find all the details in my blog.   N
 <img src="{{ site.url }}/images/simmonslogo.jpg" style="width: 50%"/> 2010 - 2011
 </p>
 <p class="logo">
-<img src="{{ site.url }}/images/codeschoollogo.jpg" style="width: 50%; 	margin-bottom: 10px"/> 
+<img src="{{ site.url }}/images/codeschoollogo.jpg" style="width: 50%;  margin-bottom: 10px"/> 
 <img src="{{ site.url}}/images/codecademylogo.jpg" style="width: 50%"/> 2015
 </p>    
 
 ### Skills
 <p>
-	<img class="sm-logo" src="{{ site.url }}/images/html5logo.png"/>
-	<img class="sm-logo" src="{{ site.url }}/images/css3logo.jpg"/>
-	<img class="sm-logo" src="{{ site.url }}/images/djangologo.png"/>
-	<img class="sm-logo" src="{{ site.url }}/images/jinja2logo.jpg"/>
-	<img class="sm-logo" src="{{ site.url }}/images/javascriptlogo.jpg"/>
+  <img class="sm-logo" src="{{ site.url }}/images/html5logo.png"/>
+  <img class="sm-logo" src="{{ site.url }}/images/css3logo.jpg"/>
+  <img class="sm-logo" src="{{ site.url }}/images/djangologo.png"/>
+  <img class="sm-logo" src="{{ site.url }}/images/jinja2logo.jpg"/>
+  <img class="sm-logo" src="{{ site.url }}/images/javascriptlogo.jpg"/>
 </p>  
 
