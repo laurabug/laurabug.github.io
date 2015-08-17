@@ -437,10 +437,10 @@ ul {
 	p {
 		margin-bottom: 10px;
 		display: block;
-		text-align: center;
 
 		&.logo {
 			padding: 20px 0 10px 0;
+			text-align: center;
 			border-bottom: 2px solid $light-teal;
 		}
 
